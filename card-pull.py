@@ -3,12 +3,7 @@ import time
 
 PULLED_CARDS = set()
 SUITES = [ "diamonds", "clubs", "spades", "hearts" ]
-NAMEDC = { 
-        1: "ACE", 
-        11: "JACK", 
-        12: "QUEEN", 
-        13: "KING" 
-    }
+NAMEDC = { 1: "ACE", 11: "JACK", 12: "QUEEN", 13: "KING" }
 
 def main():
     ROUND = 1
